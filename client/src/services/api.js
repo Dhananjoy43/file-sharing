@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const SERVER_URL = import.meta.env.VITE_REACT_SERVER_URL;
+// const SERVER_URL = import.meta.env.VITE_REACT_SERVER_URL;
+const SERVER_URL = "https://cloud-share-server.onrender.com"
 
 export const uploadFile = async (data) => {
     try {
